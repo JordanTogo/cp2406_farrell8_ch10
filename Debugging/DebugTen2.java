@@ -4,9 +4,9 @@ public class DebugTen2
 {
    public static void main(String args[]) 
    {
-      DebugVacation = new DebugVacation();
-      DebugExtendedVacation =
-         new DebugExtendedVacation();
+      FixDebugVacation myVacation = new FixDebugVacation();
+      FixDebugExtendedVacation yourVacation =
+         new FixDebugExtendedVacation();
       System.out.println("My vacation is for " +
          myVacation.getDays() + " days");
       System.out.println("Your vacation is for " +
